@@ -1,7 +1,7 @@
 import {Search, ShoppingCartOutlined } from '@mui/icons-material'
 import { Badge } from '@mui/material'
 import React from 'react'
-import '../css/navbar.css'
+import '../css/Navbar.css'
 
 const Navbar = () => {
   return (
