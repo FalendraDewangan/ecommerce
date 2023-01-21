@@ -1,0 +1,28 @@
+.sliderContainer
+{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.sliderWrapper{
+    display: flex;
+    height: 100vh;
+    width:fit-content;
+    transition: translate 0.5s;
+}
+
+
+.sliderContainer .arrow
+{
+    display: inline-flex;
+    align-items: center;
+    opacity: 0.5;
+    border: 2px solid gray;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    height: 35px;
+    z-index: 2;
+}

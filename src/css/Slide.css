@@ -1,0 +1,33 @@
+.slide {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide .slideImg
+{
+    height: 80%;
+    flex:1;
+}
+
+.slide .slideInfo{
+    flex: 2;
+    margin: auto;
+}
+
+.slide .slideInfo .title{
+    font-style: 70px;
+}
+
+.slide .slideInfo .description{
+    margin: 50px 0px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.slide .slideInfo button{
+    background-color: transparent;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
