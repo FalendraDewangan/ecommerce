@@ -12,7 +12,7 @@ const Slide = (props) => {
                 <div className="description">
                   <p>{props.desc}</p>
                 </div>
-                <button>Show Now</button>
+                <button>Shop Now</button>
               </div>
             </div>
   )

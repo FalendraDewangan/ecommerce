@@ -1,0 +1,27 @@
+.category{
+    display: flex;
+    flex: 1;
+    height: 60vh;
+    margin: 3px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.category img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.category .info{
+    position: absolute;
+    color: white;
+}
+.category .info button{
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: white;
+    color: gray;
+}
