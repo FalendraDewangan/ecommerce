@@ -25,3 +25,9 @@
     background-color: white;
     color: gray;
 }
+
+@media screen and (max-width:550px){
+    .category img{
+        height: 30vh;
+    }
+}

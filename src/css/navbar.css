@@ -47,3 +47,26 @@
     margin-left: 25px;
     cursor: pointer;
 }
+
+@media screen and (max-width:500px) {
+    
+    .navbarContainer{
+        height: 35px;
+    }
+
+    .navbarContainer .search input{
+        width: 50px;
+    }
+        
+    .navbarContainer .right{
+        flex: 2;
+        justify-content: center;
+    }
+
+    .navbarContainer .menuItem
+    {
+        font-size: 12px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}

@@ -97,3 +97,25 @@
     background-color: teal;
     color: white;
 }
+
+@media screen and (max-width:700px){
+    .productPage .productWrapper{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .productPage .imgContainer img{
+        max-height: 50vh;
+    }
+    .productPage .infoContainer{
+        padding: 0px;
+    }
+    .productPage button{
+        padding: 5px;
+    }
+    .productPage .filterConatiner{
+        width: 100%;
+    }
+    .productPage .addContainer{
+        width: 100%;
+    }
+}

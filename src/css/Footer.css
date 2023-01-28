@@ -60,3 +60,16 @@
 .right .payment{
     width: 100%;
 }
+
+@media screen and (max-width:580px){
+    .footer{
+        flex-direction: column;
+    }
+    .footer .center{
+        display: none;
+    }
+    .footer .right{
+        background-color: lightgray;
+        padding: 20px;
+    }
+}

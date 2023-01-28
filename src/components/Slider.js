@@ -7,18 +7,14 @@ const Slider = () => {
   let i = 0;
   function handleOnclick()
   {
-      console.log(i);
       let ele = document.getElementsByClassName("sliderWrapper")[0];
       ele.style.translate = `${i*100}vw`
-      console.log("btn clicked")
   }
 
   setInterval(() => {
     i=(i-1)%n; 
     handleOnclick();
   }, 4000);
-
-  console.log("changed");
 
   return (
     <div className="sliderContainer">

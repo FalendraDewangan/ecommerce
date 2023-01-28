@@ -10,8 +10,8 @@ const Register = () => {
                 <input type="text" placeholder='Last Name'/>
                 <input type="text" placeholder='Username'/>
                 <input type="text" placeholder='Email'/>
-                <input type="text" placeholder='Password'/>
-                <input type="text" placeholder='Confirm Password'/>
+                <input type="password" placeholder='Password'/>
+                <input type="password" placeholder='Confirm Password'/>
                 <span className="agreement">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, perspiciatis vitae inventore alias eos nihil odit. Veniam minima iusto suscipit?
                 </span>

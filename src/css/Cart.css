@@ -119,3 +119,27 @@
     color: white;
     font-weight: 600;
 }
+
+@media screen and (max-width:700px){
+    .cart .wrapper{
+        padding: 5px;
+    }
+    .cart .top .topText{
+        display: none;
+    }
+    .cart .bottom{
+        flex-direction: column;
+    }
+    .cart .bottom .product{
+        flex-direction: column;
+    }
+    .cart .bottom .detail{
+        padding: 5px;
+    }
+    .cart .productAmountContainer .productAmount{
+        margin: 15px;
+    }
+    .cart .priceDetail .productPrice{
+        margin-bottom: 20px;
+    }
+}

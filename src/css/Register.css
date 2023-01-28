@@ -39,3 +39,9 @@
     padding: 15px 20px;
     cursor: pointer;
 }
+
+@media screen and (max-width:550px){
+    .register .wrapper{
+        width: 80%;
+    }
+}

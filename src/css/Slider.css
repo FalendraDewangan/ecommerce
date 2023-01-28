@@ -25,3 +25,9 @@
     height: 35px;
     z-index: 2;
 }
+
+@media screen and (max-width:809px) {
+    .sliderContainer{
+        display: none;
+    }
+}

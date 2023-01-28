@@ -10,7 +10,7 @@ const Navbar = () => {
 
             <div className="left">
                 <div className="search">
-					<input type="text" name="" id="" />
+					<input type="text" placeholder='Search' />
                     <Search style={{"fontSize":"16px", "color":"gray"}}/>
                 </div>
             </div>

@@ -29,20 +29,22 @@ const Product = () => {
 
             <div className="filter">
               <span className="filterTitle">Size</span>
-                <select name="" id="">
-                  <option value="">XS</option>
-                  <option value="">S</option>
-                  <option value="">M</option>
-                  <option value="">L</option>
-                  <option value="">XL</option>
-                  <option value="">XXL</option>
-                </select>
+              <select name="" id="">
+                <option value="">XS</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+              </select>
             </div>
           </div>
           <div className="addContainer">
-            <Remove/>
-            <div className="amount">1</div>
-            <Add/>
+            <div style={{display:"flex"}}>
+              <Remove />
+              <div className="amount">1</div>
+              <Add />
+              </div> 
             <button>ADD TO CART</button>
           </div>
         </div>
