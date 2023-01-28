@@ -1,0 +1,99 @@
+.productPage .productWrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.productPage .imgContainer{
+    flex: 1;
+}
+
+.productPage .imgContainer img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.productPage .infoContainer{
+    flex: 1;
+    padding: 0px 50px;
+}
+
+.productPage .title{
+    font-weight: 200;
+}
+
+.productPage .desc{
+    margin: 20px 0px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.productPage .price{
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.productPage .filterConatiner{
+    margin: 30px 0px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productPage .filter{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.productPage .filterTitle{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.productPage .filterColor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.productPage .filter select{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.productPage .addContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productPage .amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid teal;
+    width: 40px;
+    height: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.productPage button{
+    padding: 15px;
+    border: 2px solid teal;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: white;
+}
+
+.productPage button:hover{
+    background-color: teal;
+    color: white;
+}
