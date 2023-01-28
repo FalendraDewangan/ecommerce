@@ -1,0 +1,43 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+}
+
+.login .wrapper{
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+}
+
+.login .title{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.login .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login .form input{
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.login button{
+    width: 40%;
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.login a{
+    margin: 5px 0px;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}

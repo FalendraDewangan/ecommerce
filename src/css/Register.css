@@ -1,0 +1,41 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+}
+
+.register .wrapper{
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+}
+
+.register .title{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.register .form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.register .form input{
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+}
+
+.register .form .agreement{
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.register button{
+    width: 40%;
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+}

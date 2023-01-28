@@ -1,5 +1,7 @@
 import './App.css';
-import ProductPage from './pages/ProductPage';
+import Login from './pages/Login';
+// import Register from './pages/Register';
+// import ProductPage from './pages/ProductPage';
 // import Home from './pages/Home';
 // import Productlist from './pages/Productlist';
 
@@ -8,7 +10,9 @@ function App() {
     <div className="App">
       {/* <Home/> */}
       {/* <Productlist/> */}
-      <ProductPage/>
+      {/* <ProductPage/> */}
+      {/* <Register/> */}
+      <Login/>
     </div>
   );
 }
